@@ -1,17 +1,12 @@
-## Network
-# Part 01. Network
-Made by. 
+# Part 1. Network
+Made by. 김영주 김지섭 김지훈 조형준 하태린
 
-## 1. Core of Network Overview
-
-## HTTP & HTTPS(#HTTP & HTTPS 답변)
+## [1.1. HTTP와 HTTPS](#HTTP와-HTTPS-답변)
 #### 💡 GET 방식과 POST 방식의 차이는 무엇인가요?
 
 <br/><br/>
 
-# 1. Core of Network
-
-## HTTP & HTTPS 답변
+## 1.1. HTTP와 HTTPS 답변
 
 #### 💡 GET 방식과 POST 방식의 차이는 무엇인가요?
 
