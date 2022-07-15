@@ -11,7 +11,7 @@ Made by. 김영주 김지섭 김지훈 조형준 하태린
 #### 💡 TCP와 UDP의 차이는 무엇인가요?
 #### 💡 3 way & 4 way handshake에 대해서 설명해주세요.
 
-## [1.4. WEB](#web-답변)
+## [1.4. WEB](#WEB-답변)
 #### 💡 브라우저에 특정 url을 입력하면, 어떤 과정이 일어나는가?
 
 <br/><br/>
@@ -81,7 +81,7 @@ OSI 7 계층은 Physical, Data Link, Network, Transport, Session, Presentation, 
 - TIME_WAIT 시간이 끝나면 클라이언트도 닫는다 (Closed)  
     * 이렇게 4번의 통신이 완료되면 연결이 해제된다
 
-## 1.4. web 답변
+## 1.4. WEB 답변
 
 #### 💡 브라우저에 특정 url을 입력하면, 어떤 과정이 일어나는가?
 
