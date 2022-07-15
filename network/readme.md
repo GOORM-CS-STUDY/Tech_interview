@@ -4,7 +4,7 @@ Made by.
 
 ## 1. Core of Network Overview
 
-## [HTTP & HTTPS](#HTTP & HTTPS 답변)
+## HTTP & HTTPS(#HTTP & HTTPS 답변)
 #### 💡 GET 방식과 POST 방식의 차이는 무엇인가요?
 
 <br/><br/>
