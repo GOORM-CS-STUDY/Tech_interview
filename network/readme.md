@@ -7,6 +7,7 @@ Made by. 김영주 김지섭 김지훈 조형준 하태린
 
 ## [1.2. HTTP와 HTTPS](#HTTP와-HTTPS-답변)
 #### 💡 GET 방식과 POST 방식의 차이는 무엇인가요?
+#### 💡 RESTful이란 무엇이며, 이것에 대해 아는대로 설명해보세요.
 
 ## [1.3. TCP와 UDP](#TCP와-UDP-답변)
 #### 💡 TCP와 UDP의 차이는 무엇인가요?
@@ -15,7 +16,6 @@ Made by. 김영주 김지섭 김지훈 조형준 하태린
 
 ## [1.4. WEB](#WEB-답변)
 #### 💡 브라우저에 특정 url을 입력하면, 어떤 과정이 일어나는가?
-#### 💡 RESTful이란 무엇이며, 이것에 대해 아는대로 설명해보세요.
 #### 💡 Blocking/Non-blocking & Synchronous/Asynchronous
 
 ## [1.5. 네트워크 장비](#네트워크 장비)
@@ -67,6 +67,26 @@ OSI 7 계층은 Physical, Data Link, Network, Transport, Session, Presentation, 
 두 방식 모두 서버에 요청을 하는 request 메서드이지만,  
 * GET은 데이터를 조회하기 위해서 사용하는 방식으로 데이터를 헤더에 추가하여 전송하며, URL에 데이터가 노출되기 때문에 패스워드 같은 중요한 데이터를 포함하면 안되는 방식이며,
 * POST는 데이터를 추가 또는 수정하기 위해서 사용하는 방식으로 데이터를 바디에 추가하여 전송하는 방식이며, URL에 데이터가 직접적으로 노출되지 않기 때문에 GET 방식보다는 비교적 안전하다고 할 수 있습니다.
+
+#### 💡 RESTful이란 무엇이며, 이것에 대해 아는대로 설명해보세요.
+
+- HTTP URL을 통해 자원을 표시하고 HTTP Method를 통해 자원에 대한 처리를 표현하는 REST의 원리를 따르는 시스템을 의미합니다. REST를 사용했다 하여 모두가 RESTful 한 것은 아니며, REST API 설계 규칙을 올바르게 지킨 시스템들을 RESTful하다 라고 말할 수 있습니다.
+
+- 추가) REST의 특징
+    1. Server-Client(서버-클라이언트 구조)
+    2. Stateless(무상태)
+    3. Cacheable(캐시 처리 가능)
+    4. Layered System(계층화)
+    5. Uniform Interface(인터페이스 일관성)
+    
+- REST API 설계 예시
+    1. URI는 동사보다는 명사를, 대문자보다는 소문자를 사용하여야 한다.
+    2. 마지막에 슬래시 (/)를 포함하지 않는다.
+    3. 언더바 대신 하이폰을 사용한다.
+    4. 파일확장자는 URI에 포함하지 않는다.
+    5. 행위를 포함하지 않는다.
+   
+출처 : https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80
 
 
 ## 1.3. TCP와 UDP 답변
@@ -163,25 +183,6 @@ DNS는 데이터를 교환하는 경우다.
 8. 도착한 HTTP 응답 메시지는 HTTP 프로토콜을 사용하여 웹 페이지 데이터로 변환  
 9. 변환된 웹 페이지 데이터는 웹 브라우저에 의해 출력되어 사용자가 볼 수 있음
 
-#### 💡 RESTful이란 무엇이며, 이것에 대해 아는대로 설명해보세요.
-
-- HTTP URL을 통해 자원을 표시하고 HTTP Method를 통해 자원에 대한 처리를 표현하는 REST의 원리를 따르는 시스템을 의미합니다. REST를 사용했다 하여 모두가 RESTful 한 것은 아니며, REST API 설계 규칙을 올바르게 지킨 시스템들을 RESTful하다 라고 말할 수 있습니다.
-
-- 추가) REST의 특징
-    1. Server-Client(서버-클라이언트 구조)
-    2. Stateless(무상태)
-    3. Cacheable(캐시 처리 가능)
-    4. Layered System(계층화)
-    5. Uniform Interface(인터페이스 일관성)
-    
-- REST API 설계 예시
-    1. URI는 동사보다는 명사를, 대문자보다는 소문자를 사용하여야 한다.
-    2. 마지막에 슬래시 (/)를 포함하지 않는다.
-    3. 언더바 대신 하이폰을 사용한다.
-    4. 파일확장자는 URI에 포함하지 않는다.
-    5. 행위를 포함하지 않는다.
-   
-출처 : https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80
 
 #### 💡 브라우저에 특정 url을 입력하면, 어떤 과정이 일어나는가?
 - Blocking/Non-blocking & Synchronous/Asynchronous
